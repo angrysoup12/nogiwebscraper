@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia-Like Website</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar navbar-light bg-light">
+        <a class="navbar-brand mx-auto" href="#">Nogipedia</a>
+    </header>
+    <div class="container mt-5">
+        <ul class="nav nav-tabs justify-content-center mb-3">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#rankings">Rankings</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#players">Players</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#events">Events</a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="home" class="container tab-pane active"><br>
+                <h3>Home</h3>
+                <p>Welcome to the Wikipedia-like website.</p>
+            </div>
+            <div id="rankings" class="container tab-pane fade"><br>
+                <h3>Rankings</h3>
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Scene from "The Wicked World" at the theatre</h5>
+                            <p class="card-text">The climactic scene from Act III of The Wicked World...</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nesjavellir</h5>
+                            <p class="card-text">The Nesjavellir geothermal power plant, located near...</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Another Card</h5>
+                            <p class="card-text">Some quick example text to build on the card title...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="players" class="container tab-pane fade"><br>
+                <h3>Players</h3>
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Player 1</h5>
+                            <p class="card-text">Details about Player 1...</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Player 2</h5>
+                            <p class="card-text">Details about Player 2...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="events" class="container tab-pane fade"><br>
+                <h3>Events</h3>
+                <p>Upcoming events will be displayed here.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
